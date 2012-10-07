@@ -1,0 +1,21 @@
+development:
+  adapter: mysql2
+  encoding: utf8
+  database: blogessearch
+  username: root
+  password: root
+  host: 127.0.0.1
+test:
+  adapter: mysql2
+  encoding: utf8
+  database: blogessearch-tes
+  username: root
+  password: root
+  host: localhost
+production:
+  adapter: mysql2
+  encoding: utf8
+  database: blogessearch-pro
+  username: root
+  password: root
+  host: localhost  
